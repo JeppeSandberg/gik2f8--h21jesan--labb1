@@ -18,6 +18,10 @@ searchField.addEventListener('keyup', (e) =>
   )
 );
 
+function moreinfo(x) {
+  x.height = "32px";
+}
+
 function renderBookList(bookList) {
   const existingElement = document.querySelector('.book-list');
 
